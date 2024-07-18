@@ -1,6 +1,8 @@
-#nginx
 zabbix/zabbix-build-base:centos-6.4-latest
-centos
+zabbix/zabbix-agent:centos-6.4-latest
+zabbix/zabbix-java-gateway:centos-6.4-latest
+zabbix/zabbix-web-apache-mysql:centos-6.4-latest
+
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 #支持指定架构
